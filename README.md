@@ -2,6 +2,11 @@
 
 Aplicacao client-side desenvolvida para o desafio front-end da Desbravador Software. O projeto consome a API publica do GitHub para buscar um usuario, exibir seus dados principais e listar os repositorios mais populares com ordenacao dinamica e tela de detalhes.
 
+## Links
+
+- Repositorio: https://github.com/amandadduraes/repositoriosGIt
+- Demo: https://repositorios-g-2hua59ogv-amandadduraes-projects.vercel.app/
+
 ## Demo do que foi implementado
 
 - Busca de usuario do GitHub
