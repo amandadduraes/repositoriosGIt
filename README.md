@@ -57,6 +57,18 @@ http://localhost:5173
 npm run build
 ```
 
+### Rodar testes automatizados
+
+```bash
+npm run test
+```
+
+Para acompanhar em modo watch:
+
+```bash
+npm run test:watch
+```
+
 ### Visualizar a build localmente
 
 ```bash
@@ -113,7 +125,6 @@ Se quiser publicar, uma opcao simples e usar Vercel:
 
 ## Melhorias futuras
 
-- Adicionar testes automatizados
 - Persistir a ultima busca no navegador
 - Exibir linguagem favorita ou metricas agregadas do usuario
 - Criar pagina 404 com ilustrações ou estados mais ricos
