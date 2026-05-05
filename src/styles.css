@@ -146,6 +146,7 @@ a {
   flex-direction: column;
   gap: 0.25rem;
   height: 100%;
+  min-width: 0;
   padding: 1rem 1.1rem;
   border-radius: 20px;
   background: var(--bg-surface-strong);
@@ -153,7 +154,12 @@ a {
 }
 
 .stat-panel strong {
-  font-size: 1.4rem;
+  display: block;
+  max-width: 100%;
+  font-size: clamp(1.25rem, 1.05rem + 0.8vw, 1.4rem);
+  line-height: 1.15;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 .stat-label,
@@ -168,6 +174,14 @@ a {
   display: flex;
   flex-direction: column;
   gap: 0.45rem;
+  min-width: 0;
+}
+
+.detail-group a,
+.detail-group p {
+  max-width: 100%;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 .badge-chip {
